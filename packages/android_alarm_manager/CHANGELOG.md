@@ -1,3 +1,9 @@
+## 0.4.5
+* Add support for Flutter Android embedding V2
+* Called WidgetsFlutterBinding.ensureInitialized() in
+  `AndroidAlarmManager.initialize` to handle case where initialization is done
+  before `runApp` is called.
+
 ## 0.4.4+1
 
 * Update and migrate iOS example project.
